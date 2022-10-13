@@ -30,12 +30,18 @@ h1 {
 
 .hr {
   height: 2px;
-  width: 70%;
+  width: 50%;
   background-color: #ccc;
   border: none;
 }
 
-header {
+header,
+.about,
+.proficiency,
+.example,
+.exp,
+.courses,
+.languages {
   display: flex;
   flex-direction: column;
 }
@@ -45,8 +51,26 @@ header {
 .ul,
 .nav,
 .name,
-.para {
+.para,
+.title,
+.text,
+.proficiency,
+.code,
+.codeex,
+.skills,
+.container,
+.tt,
+.experience,
+.courses,
+.course,
+.lang,
+.list {
   margin: auto;
+}
+
+.email {
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
 .name,
@@ -65,7 +89,70 @@ header {
 }
 
 .phone,
-.mail {
+.mail,
+.skill {
   font-size: 1.2rem;
   font-weight: 400;
+}
+
+.title {
+  font-size: 2rem;
+  padding: 2rem;
+}
+
+.text {
+  font-size: 1.6rem;
+  width: 50%;
+  text-align: center;
+  margin-bottom: 1.2rem;
+}
+
+.skills,
+.code,
+.tt,
+.course {
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.tt {
+  padding-top: 4rem;
+}
+
+.skill,
+.experience,
+.mycourse,
+.lingua {
+  font-size: 1.6rem;
+}
+
+.codeex {
+  width: 50%;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 5rem;
+}
+
+.container {
+  width: 50%;
+  height: 20%;
+  background-color: rgb(228, 225, 225);
+  padding: 2rem 2rem 2rem 2rem;
+}
+
+.experience {
+  margin-bottom: 2rem;
+}
+
+.pic {
+  width: 80%;
+  height: 80%;
+  margin: 2rem;
+  border-radius: 1%;
+}
+
+.lang {
+  font-size: 2rem;
+  padding: 1rem 1rem;
 }

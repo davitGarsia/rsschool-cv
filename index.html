@@ -14,25 +14,107 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <section>
-      <header>
-        <h1 class="name">Davit Garsiashvili</h1>
+    <header>
+      <h1 class="name">Davit Garsiashvili</h1>
+      <hr class="hr" />
+      <h2 class="para">Junior Frontend Engineer</h2>
+    </header>
+    <main class="main">
+      <hr class="hr" />
+      <nav class="nav">
+        <div class="info">
+          <p class="contact">Contact Information</p>
+          <ul class="ul">
+            <li class="phone">Phone: 558148078</li>
+            <!-- <li class="mail">E-mail: davitgarsiashvili@gmail.com</li> -->
+            <li class="mail">
+              <a class="email" href="#">davitgarsiashvili@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr class="hr" />
+      <section class="about">
+        <p class="title">Briefly About Myself</p>
+        <p class="text">
+          Nevertheless of my deep interest in programming and technology in
+          general, I started studying international law at university, the
+          decision mostly made because of public prejudice that you have to be
+          some kind of math genius to study computer science. But I was not
+          happy in the chosen field, it was excruciatingly monotonous, so I
+          decided to change fields. I came across a community of programmers -
+          BitCamp which helped me get acquainted with the basics of programming
+          and helped me find resources. After a period of learning very basics
+          of programming, I started studying HMML, CSS and JavaScript. I was
+          amazed with this field and became more and more interested.
+          Programming was a kind of discipline that I could not be bored with as
+          it required all my attention. I loved puzzles, intellectual games from
+          and discovered that this was the line of work I liked most. I studied
+          HTML, CSS and JavaScript with several resources: The Odin Project,
+          Udemy courses, Youtube tutorials. Currently I am studying Angular
+          framework and brushing up on my skills with the help of Rs School. I
+          am interested in becoming a full-stack developer, so I want to learn a
+          backend language after angular. At this stage I am interested in
+          Node.js. I also regularly practice solving problems on websites like
+          codewars, hackerrank and leetcode. I hope to become a proficient
+          developer in the coming months and work on interesting projects.
+        </p>
         <hr class="hr" />
-        <h2 class="para">Junior Frontend Engineer</h2>
-      </header>
-      <main class="main">
-        <hr class="hr" />
-        <nav class="nav">
-          <div class="info">
-            <p class="contact">Contact Information</p>
-            <ul class="ul">
-              <li class="phone">Phone: 558148078</li>
-              <li class="mail">E-mail: davitgarsiashvili@gmail.com</li>
+        <div class="proficiency">
+          <p class="skills">Skills and Proficiency</p>
+          <ul class="ul">
+            <li class="skill">Git, Github</li>
+            <li class="skill">HTML, CSS, Tailwind CSS</li>
+            <li class="skill">JavaScript</li>
+            <li class="skill">Basics of Angular</li>
+          </ul>
+          <hr class="hr">
+          <div class="example">
+          <p class="code">Code Example</p>
+          <div class="container">
+          <code class="codeex">const handleHover = function (e) {
+            if (e.target.classList.contains('nav__link')) {
+            const link = e.target;
+            const siblings = link.closest('.nav').querySelectorAll('.nav__link');
+            const logo = link.closest('.nav').querySelector('img');
+              siblings.forEach(el => {
+                 if (el !== link) el.style.opacity = this;
+              });
+                logo.style.opacity = this;
+             }
+          };</code>
+          
+          </div>
+          <div class="exp">
+            <p class="tt">Experience</p>
+              <p class="experience">Completed several
+                 personal projects
+                developed using HTML,
+                 CSS and JavaScript.</p>
+          </div>
+          <hr class="hr">
+          <div class="courses">
+            <p class="course">Courses</p>
+            <ul class="thecourses">
+              <li class="mycourse">Jonas Schmedtmann HTML, CSS Course on Udemy</li>
+              <img class="pic" src="js.png" alt="js course picture">
+              <li class="mycourse">Advanced HTMl, CSS path on The Odin Project</li>
+              <li class="mycourse">Jonas Schmedtmann Complete JavaScript Couse on Udemy</li>
+              <li class="mycourse">Maximilian Schwarzmuller Angular Course on Udemy (in progress)</li>
+              <li class="mycourse">RS School JavaScript course (in progress)</li>
             </ul>
           </div>
-        </nav>
-        <hr class="hr" />
-      </main>
-    </section>
+          <hr class="hr">
+          <div class="languages">
+            <p class="lang">Languages</p>
+            <ul class="list">
+              <li class="lingua">Georgian - Native</li>       
+              <li class="lingua">English - C1</li>
+              <li class="lingua">French - B1</li>
+            </ul>
+          </div>
+      </section>
+      
+    </main>
   </body>
 </html>
