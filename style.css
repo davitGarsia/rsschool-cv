@@ -1,0 +1,71 @@
+* {
+  /* padding: 0;
+  margin: 0; */
+  /* box-sizing: border-box; */
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  line-height: 1.5;
+
+  overflow-x: hidden;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 3.6rem;
+  font-weight: 400;
+}
+
+.hr {
+  height: 2px;
+  width: 70%;
+  background-color: #ccc;
+  border: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+.hr,
+.info,
+.ul,
+.nav,
+.name,
+.para {
+  margin: auto;
+}
+
+.name,
+.para,
+.info {
+  padding: 2.4rem;
+}
+
+.para {
+  font-weight: 400;
+  font-size: 2.4rem;
+}
+
+.contact {
+  font-size: 2rem;
+}
+
+.phone,
+.mail {
+  font-size: 1.2rem;
+  font-weight: 400;
+}
