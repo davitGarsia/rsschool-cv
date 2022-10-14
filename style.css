@@ -35,6 +35,13 @@ h1 {
   border: none;
 }
 
+.hrr {
+  height: 2px;
+  width: 80%;
+  background-color: #ccc;
+  border: none;
+}
+
 header,
 .about,
 .proficiency,
@@ -95,6 +102,11 @@ header,
   font-weight: 400;
 }
 
+.contact,
+.skills {
+  font-weight: 400;
+}
+
 .title {
   font-size: 2rem;
   padding: 2rem;
@@ -127,6 +139,10 @@ header,
   font-size: 1.6rem;
 }
 
+.list {
+  margin-bottom: 2rem;
+}
+
 .codeex {
   width: 50%;
   font-size: 1.2rem;
@@ -155,4 +171,31 @@ header,
 .lang {
   font-size: 2rem;
   padding: 1rem 1rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  margin-left: 35%;
+  margin-bottom: 2rem;
+}
+
+.glink {
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-left: -30%;
+  margin-top: 5rem;
+}
+
+.date {
+  font-size: 1.1rem;
+  margin-top: 6rem;
+}
+
+.logo {
+  width: 70px;
+  height: 70px;
+  margin-left: 40%;
+  margin-top: -15%;
 }
